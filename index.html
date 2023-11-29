@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //task1 print even or odd
+       function myfunction(a){
+        if(a%2==0){
+            return "even";
+        }
+        else{
+            return "odd";
+        }
+        
+       }
+       var a=+prompt("enter any value:");
+       console.log(myfunction(a));
+
+       //task2 print 1 to 10
+       function num(a,b){
+        for(var a=1;a<=10;a++){
+            return a*b;
+        }
+       }
+       var b=+prompt("enter a value:")
+       console.log(num());
+
+       //task3 factorial of i
+      
+       function myfun(){
+        var a=1;
+        for(var i=1;i<=10;i++){
+            a=a*i;
+        }
+        return a;
+       }
+       console.log(myfun());
+
+    </script>
+</body>
+</html>
